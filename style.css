@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 100px 0 150px;
+    background-color: #1E2B35;
+}
+.container2{
+    padding-top: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center;
+}
+.radio-titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
+.container-radio {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem;
+}
+.container-radio input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+.container-radio .radio-title {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #07afd9;
+    height: 100%;
+    transition: all 300ms ease;
+    border-radius: 8px;
+}
+.container-radio i {
+    font-size: 3rem;
+    color: #07afd9;
+    margin-bottom: 10px;
+}
+.container-radio label {
+    font-size: 0.80rem;
+    color: #07afd9;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+input:checked+.radio-title {
+    box-shadow: 0 0 12px #07afd9;
+    background-color: #07afd9;
+    transform: scale(1.1);
+}
+input:hover+.radio-title {
+    box-shadow: 0 0 12px #07afd9;
+}
+input:checked+.radio-title i,
+input:checked+.radio-title label {
+    color: white;
+}
+.checkbox-group{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.checkbox{
+    margin-bottom: 20px;
+    width: 20%;
+}
+.checkbox input[type="checkbox"]{
+    display: none;
+}
+.checkbox label{
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 55px;
+    background-color: #000;
+    border: 1px solid #000;
+    transition: all 0.5s linear;
+    color: #0079bf;
+    border: none;
+}
+.checkbox input[type="checkbox"]:checked + label{
+    background-color: #0079bf;
+    padding: 65px;
+    transition: all 0.5s linear;
+    color: #fff;
+}
+
+/* COLOR CHECKBOX */
+#color1{
+    margin: auto;
+    width: 15%;
+}
+.color{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.color div{
+    margin: 10px;
+}
+.color div label{
+    cursor: pointer;
+}
+.color div label input[type="checkbox"] {
+    display: none;
+}
+.color div span{
+    position: relative;
+    display: inline-block;
+    background-color: #424242;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,.5);
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+#red span{
+    background-color: red;
+}
+#green span{
+    background-color: green;
+}
+#yellow span{
+    background-color: yellow;
+}
+#blue span{
+    background-color: blue;
+}
+#brown span{
+    background-color: brown;
+}
+#purple span{
+    background-color: purple;
+}
+#pink span{
+    background-color: pink;
+}
+#white span{
+    background-color: white;
+}
+#black span{
+    background-color: black;
+}
+#grey span{
+    background-color: grey;
+}
+#orange span{
+    background-color: orange;
+}
+label input[type="checkbox"]:checked ~ span{
+    box-shadow: 0 2px 20px #e91e63;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
