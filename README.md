@@ -1,11 +1,4 @@
 <h1>Radio button</h1>
-<p align="left">Welcome to website, built with HTML, CSS</p>
-
-<h1>Visit the Website</h1>
-- 📄 For more information and to visit [https://esmer-terishli.github.io/radio-button/].
-
-
-<h1>Radio button</h1>
 
 <h1>Live Demo</h1>
 - 📄 [https://esmer-terishli.github.io/radio-button/].
